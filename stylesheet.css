@@ -1,0 +1,25 @@
+header {
+    background: url("img/bgg.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+#face {
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+ul {
+    padding: 10px;
+    background: rgba(245, 230, 244, 0.5);
+}
+
+li {
+    display: inline;
+    padding: 0px 15px 0px 15px;
+}
