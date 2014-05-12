@@ -1,5 +1,18 @@
+@font-face {
+    font-family: cherl;
+    src: url(font/cherl.ttf);
+}
+@font-face {
+    font-family: ocean;
+    src: url(font/ocean.ttf);
+}
+
+body {
+    margin: 0px;
+}
+
 header {
-    background: url("img/zebra.jpg");
+    background: url("img/ptile.jpg");
     background-size: cover;
     text-align: center;
     margin: 0 auto;
@@ -10,12 +23,14 @@ header {
 #face {
     border: 2px solid white;
     border-radius: 50px;
-    margin-top: 5px;
+    margin-top: 20px;
+
 }
 
 h1 {
     font-size: 50px;
     margin: auto;
+    font-family: cherl;
 }
 
 ul {
@@ -25,4 +40,10 @@ ul {
 li {
     display: inline;
     padding: 0px 15px 0px 15px;
+    font-family: ocean;
+    font-size: 24px;
+}
+
+a {
+    color: #fad9f6;
 }
