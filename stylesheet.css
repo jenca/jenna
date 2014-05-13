@@ -28,9 +28,10 @@ header {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     margin: auto;
     font-family: cherl;
+    text-shadow: 1px 1px black;
 }
 
 ul {
@@ -42,8 +43,23 @@ li {
     padding: 0px 15px 0px 15px;
     font-family: ocean;
     font-size: 24px;
+    font-weight: bold;
 }
 
 a {
     color: #fad9f6;
+}
+
+.post {
+    margin-left: 20px;
+}
+
+.date {
+    font-family: cherl;
+    font-size: 30px;
+}
+
+p {
+    font-family: ocean;
+    font-size: 24px;
 }
