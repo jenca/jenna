@@ -49,6 +49,10 @@ li {
 a {
     color: #fad9f6;
 }
+a:hover {
+    text-decoration: none;
+    letter-spacing: 2px;
+}
 
 .post {
     margin-left: 20px;
